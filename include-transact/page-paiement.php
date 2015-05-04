@@ -81,7 +81,7 @@
                         Canada<br>
                         Téléphone : 5149414057</p>
                     <br>
-                    <button type="submit" class="btn btn-default">Modifier</button>
+                    <button type="submit" class="btn btn-default modifier">Modifier</button>
                 </div>
                 <div class="col-md-4 wrap-adres-livraison">
                     <div class="header-desc">
@@ -102,7 +102,7 @@
                         Canada<br>
                         Téléphone : 4186768909</p>
                     <br>
-                    <button type="submit" class="btn btn-default">Ajouter une nouvelle adresse</button>
+                    <button type="submit" class="btn btn-default modifier">Modifier</button>
                 </div>
             </div>
             <div style="clear:both"></div>
