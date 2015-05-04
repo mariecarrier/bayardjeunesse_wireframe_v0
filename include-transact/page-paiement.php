@@ -62,47 +62,35 @@
             <div class="wrapper-paiement facturation">
                 <div class="col-md-4 wrap-adres-factu">
                     <div class="header-desc">
-                        <h3>Adresse de facturation</h3>
+                        <h3>Coordonnées de facturation</h3>
                     </div>
-                    <div class="modif-adresse">
-                        <!-- <button type="submit" class="btn btn-default" style="margin-right: 15px;">Supprimer</button>-->
-                        <!-- <button type="submit" class="btn btn-default" style="margin-right: 15px;">Modifier</button> -->
-                        
-                        
-                        <!--<label class="radio-inline">
-                            <input type="radio" name="optradio" style="width:100%; height:100%; color:#FFFFFF">
-                            <span style="color:#FFFFFF">o</span> </label>-->
+                
+    
                         <br>
-                        <br>
-                    </div>
-                    <p> Mme Marie-Michèle Carrier<br>
+              <div class="destina">
+                    <p> <strong>Mme Marie-Michèle Carrier</strong><br>
                         4475 rue Frontenac<br>
                         H2H 2S2 Montréal Québec<br>
-                        Canada<br>
+                        Canada<br><br>
                         Téléphone : 5149414057</p>
                     <br>
                     <button type="submit" class="btn btn-default modifier">Modifier</button>
-                </div>
+                </div></div>
                 <div class="col-md-4 wrap-adres-livraison">
                     <div class="header-desc">
-                        <h3>Adresse de livraison</h3>
+                        <h3>Destinataire / Adresse de livraison</h3>
                     </div>
-                    <div class="modif-adresse">
-                        <button type="submit" class="btn btn-default" style="margin-right: 15px;">Supprimer</button>
-                        <button type="submit" class="btn btn-default" style="margin-right: 15px;">Modifier</button>
-                        <label class="radio-inline">
-                            <input type="radio" name="optradio" style="width:100%; height:100%; color:#FFFFFF">
-                            <span style="color:#FFFFFF">o</span> </label>
-                        <br>
-                        <br>
-                    </div>
-                    <p> Lilou Sicard-Noël<br>
+                <br>
+                <div class="destina">
+                    <p><strong> Lilou Sicard-Noël</strong><br>
                         334 15e rue<br>
                         H4B 2K8 Québec Québec<br>
-                        Canada<br>
+                        Canada<br><br>
                         Téléphone : 4186768909</p>
                     <br>
                     <button type="submit" class="btn btn-default modifier">Modifier</button>
+                 </div>
+                    <button type="submit" class="btn btn-default ajout">Ajouter un destinataire</button>
                 </div>
             </div>
             <div style="clear:both"></div>

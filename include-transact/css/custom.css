@@ -851,10 +851,23 @@ input {
   
   
 button.modifier {
-    width: 50%;
+    width: 100%;
 }
+
+button.ajout {
+    margin: 20px 0px 0px 0px;
+    width: 60%;
+} 
  
- 
+.destina {
+     border: 1px solid rgb(217, 215, 215);
+  border-radius: 5px;
+  padding: 20px;
+  width: 60%;
+    
+}
+
+
   
   /* DÉBUT - COLONNES CONNEXION ACHAT*/
 
@@ -1688,6 +1701,26 @@ button.modifier {
 /*Tablette*/
 @media (max-width: 959px) {
     
+    
+    
+    button.modifier {
+    width: 100%;
+}
+
+button.ajout {
+    margin: 20px 0px 0px 0px;
+    width: 60%;
+} 
+ 
+.destina {
+     border: 1px solid rgb(217, 215, 215);
+  border-radius: 5px;
+  padding: 20px;
+  width: 60%;
+    
+}
+
+    
 /* Début - PAGE PAIEMENT - TABLEAU */    
 
 .recap-commande.reabo2 table.total {
@@ -1828,6 +1861,26 @@ button.modifier {
 /*Mobile*/
 @media (max-width: 759px) {
   
+button.modifier {
+    width: 100%;
+}
+
+button.ajout {
+    margin: 20px 0px 0px 0px;
+    width: 60%;
+    max-width: 350px;
+    min-width: 300px;
+} 
+ 
+ 
+.destina {
+     border: 1px solid rgb(217, 215, 215);
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+   max-width: 350px;
+    
+}
 
 
     
@@ -1989,4 +2042,26 @@ button.modifier {
         width: 200px;
         height: 200px;
     }
+    
+    
+    button.modifier {
+    width: 100%;
+}
+
+button.ajout {
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+       max-width: 350px;
+} 
+ 
+.destina {
+     border: 1px solid rgb(217, 215, 215);
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+   max-width: 350px;
+   
+    
+}
+
 }
