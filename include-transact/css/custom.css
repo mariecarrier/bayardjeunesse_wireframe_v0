@@ -12,12 +12,14 @@ Formats :
 .paiement h3 {
     text-transform:uppercase;
     font-size: 1.2em !important;
-    color:#C600E1;
+
     
     
 }
 
-
+.connexion-achat .form-enregi {
+    width: 80%;
+}
 
 input.bouton-soumettre-connexion {
     width: 217px;
@@ -76,6 +78,12 @@ h1.gros-titre {
   border-radius: 10px;
   max-width: 350px;
 }
+
+
+
+
+
+
 
 p,
 span,
@@ -841,6 +849,51 @@ input {
 }
 @media (min-width: 960px) {
   
+  
+  
+  /* DÉBUT - COLONNES CONNEXION ACHAT*/
+
+
+.connexion-achat .col-md-4.description-produit {
+  width: 100% !important;
+  float: left;
+}
+
+
+.wrapper-mp-passe, .wrapper-courriel, .input-resp-crea-client {
+    float:left;
+    width: 50%;
+   min-width: 300px;
+}
+
+.input-resp-crea-client input {
+      background-color: #FFFFFF !important;
+}
+
+
+.input-resp-crea-client.bouton-cli input {
+   background-color: #CFCFCF !important;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+} 
+.bouton-cli {
+      margin: 30px 95px 20px 0px !important;
+      height: 45px !important;
+      float: right;
+      text-align: right;
+    
+}
+
+.content-connexion-achat h2 {
+      font-size: 1.2em !important;
+}
+
+
+/* FIN - COLONNES CONNEXION ACHAT*/
+
+
   
 /* DÉBUT - TABLEAU VOTRE COMMANDE - PAIEMENT*/    
 

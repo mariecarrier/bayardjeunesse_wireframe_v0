@@ -65,11 +65,13 @@
                         <h3>Adresse de facturation</h3>
                     </div>
                     <div class="modif-adresse">
-                        <button type="submit" class="btn btn-default" style="margin-right: 15px;">Supprimer</button>
-                        <button type="submit" class="btn btn-default" style="margin-right: 15px;">Modifier</button>
-                        <label class="radio-inline">
+                        <!-- <button type="submit" class="btn btn-default" style="margin-right: 15px;">Supprimer</button>-->
+                        <!-- <button type="submit" class="btn btn-default" style="margin-right: 15px;">Modifier</button> -->
+                        
+                        
+                        <!--<label class="radio-inline">
                             <input type="radio" name="optradio" style="width:100%; height:100%; color:#FFFFFF">
-                            <span style="color:#FFFFFF">o</span> </label>
+                            <span style="color:#FFFFFF">o</span> </label>-->
                         <br>
                         <br>
                     </div>
@@ -79,7 +81,7 @@
                         Canada<br>
                         Téléphone : 5149414057</p>
                     <br>
-                    <button type="submit" class="btn btn-default">Ajouter une nouvelle adresse</button>
+                    <button type="submit" class="btn btn-default">Modifier</button>
                 </div>
                 <div class="col-md-4 wrap-adres-livraison">
                     <div class="header-desc">
