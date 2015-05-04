@@ -34,7 +34,7 @@
         </div>
         <br>
 
-        
+        Test
                          <div id="hikashop_checkout_login_form" class=" ">
                             <fieldset class="input">
                                 <p id="com-form-login-username">
