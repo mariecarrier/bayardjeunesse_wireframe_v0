@@ -81,6 +81,8 @@
                         <h3>Destinataire / Adresse de livraison</h3>
                     </div>
                 <br>
+                
+                
                 <div class="destina">
                     <p><strong> Lilou Sicard-Noël</strong><br>
                         334 15e rue<br>
@@ -90,6 +92,19 @@
                     <br>
                     <button type="submit" class="btn btn-default modifier">Modifier</button>
                  </div>
+                 
+                 
+                    <div class="destina dest2">
+                    <p><strong> Claire Alfonzo Carrier</strong><br>
+                        5492 rue du moine<br>
+                        H4B 27J9 Ste-Foy Québec<br>
+                        Canada<br><br>
+                        Téléphone : 4185765909</p>
+                    <br>
+                    <button type="submit" class="btn btn-default modifier">Modifier</button>
+                 </div>
+                 
+                 
                     <button type="submit" class="btn btn-default ajout">Ajouter un destinataire</button>
                 </div>
             </div>
@@ -117,6 +132,9 @@
     font-weight: bold;
 ">X</p></td>
         </tr>
+    
+    
+    
     
         <tr>
             <td class="label-abo">Image</td>
@@ -183,6 +201,11 @@
                 
                 <!-- Header commande -->
                 <div class="header-commande">
+                
+                <div class="col-md-5 destinataire">
+                        <p>Destinataire</p>
+                    </div>
+                    
                     <div class="col-md-5 image">
                         <p>Image</p>
                     </div>
@@ -190,7 +213,7 @@
                         <p>Nom</p>
                     </div>
                     <div class="col-md-5 prix">
-                        <p>Prix à l'unité</p>
+                        <p>Prix</p>
                     </div>
                     <div class="col-md-5 quant">
                         <p>Quantité</p>
@@ -201,6 +224,15 @@
                 </div>
                 <!-- Recap commande -->
                 <div class="recap-commande">
+                
+                  <div class="col-md-5 destinataire">
+                        <p><select id="hikashop_product_characteristic_44" name="hikashop_product_characteristic[44]" class="choix-desti inputbox duree-produit" size="1" onchange="return hikashopUpdateVariant(this);">
+	<option value="34" selected="selected">Lilou Sicard-Noël</option>
+	<option value="35">Claire Alfonzo-Carrier</option>
+	<option value="36">Antoine Alfonzo-Carrier</option>
+</select></p>
+                    </div>
+                
                     <div class="col-md-5 image">
                         <p><img src="../img/deb_cover.jpg"/></p>
                     </div>
@@ -218,8 +250,69 @@
                     </div>
                 </div>
                 
-                <div style="clear:both"></div>
+                 <div style="clear:both"></div>
+                  <hr>
+                      <div class="recap-commande">
                 
+                  <div class="col-md-5 destinataire">
+                        <p><select id="hikashop_product_characteristic_44" name="hikashop_product_characteristic[44]" class="choix-desti inputbox duree-produit" size="1" onchange="return hikashopUpdateVariant(this);">
+	<option value="34" selected="selected">Claire Alfonzo-Carrier</option>
+	<option value="35">Lilou Sicard-Noël</option>
+	<option value="36">Antoine Alfonzo-Carrier</option>
+</select></p>
+                    </div>
+                
+                    <div class="col-md-5 image">
+                        <p><img src="../img/deb_cover.jpg"/></p>
+                    </div>
+                    <div class="col-md-5 nom">
+                        <p>J'aime lire</p>
+                    </div>
+                    <div class="col-md-5 prix">
+                        <p>39.95$</p>
+                    </div>
+                    <div class="col-md-5 quant">
+                        <p>1</p>
+                    </div>
+                    <div class="col-md-5 total">
+                        <p>39.95$</p>
+                    </div>
+                </div>
+                
+                
+                          <div style="clear:both"></div>
+                  <hr>
+                      <div class="recap-commande">
+                
+                  <div class="col-md-5 destinataire">
+                        <p><select id="hikashop_product_characteristic_44" name="hikashop_product_characteristic[44]" class="choix-desti inputbox duree-produit" size="1" onchange="return hikashopUpdateVariant(this);">
+	<option value="34" selected="selected">Antoine Alfonzo-Carrier</option>
+	<option value="35">Lilou Sicard-Noël</option>
+	<option value="36">Claire Alfonzo-Carrier</option>
+</select></p>
+                    </div>
+                
+                    <div class="col-md-5 image">
+                        <p><img src="../img/deb_cover.jpg"/></p>
+                    </div>
+                    <div class="col-md-5 nom">
+                        <p>Les Explorateurs</p>
+                    </div>
+                    <div class="col-md-5 prix">
+                        <p>39.95$</p>
+                    </div>
+                    <div class="col-md-5 quant">
+                        <p>1</p>
+                    </div>
+                    <div class="col-md-5 total">
+                        <p>39.95$</p>
+                    </div>
+                </div>
+                
+              
+                
+                <div style="clear:both"></div>
+                  <hr>
                 <!-- Total commande -->
                 <div class="total-commande">
 
