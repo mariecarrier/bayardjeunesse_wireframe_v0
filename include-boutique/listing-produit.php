@@ -11,13 +11,16 @@
         </div>
         <div class="header-listing">
             <h2>Les Débrouillards</h2>
+            <div class="sub regular age">Science et découverte</div>
             <div class="sub regular age">9 à 14 ans</div>
             <div class="sub plus">41.95$</div>
             <div class="wrap-large-but" id="je-labonne">
-                <a href="/page-produit.php"><div class="subscribenow content bouton-achat"  id="je-labonne">
+                <a href="/wireframe-v1/include-boutique/page-produit.php"><div class="subscribenow content bouton-achat"  id="je-labonne">
                     <input type="button" value="Je l'abonne" class="call"/>
-                </div></a>
+                </div>
+                </a>
             </div>
+            <div class="sub regular age" style=" color:red; font-weight: bold;">Avec l'abonnement de 2 ans, obtenez un livre!</div>
         </div>
     </div>
 

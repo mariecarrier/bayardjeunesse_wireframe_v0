@@ -19,17 +19,29 @@
 ?>
 
 <div class="wrapper-prec-suivant">
-
+ <div class="header-desc">
+            <h3 style="color: red;">Merci d'avoir rajouté cet article à votre panier</h3>
+            <p>Défilez vers le bas pour TERMINER VOTRE COMMANDE.</p>
+            <p><a href="">Cliquez ici</a> pour revenir à la page précédente.</p>
+        </div>
 
     
+            <div class="wrapper-sugg-achat">
+        <h3>Ces articles pourraient aussi vous plaire</h3>
+        <div class="row content1">
+            <?php 
+include 'listing-produit.php';
+
+include 'listing-produit.php';
+
+include 'listing-produit.php';
+
+
+?>
+        </div>
+    </div>
         
-        
-        
-        <div class="wrap-large-but" id="je-labonne">
-                <a href="http://127.0.2.41/page-accueil-connexion-achat.php"><div class="subscribenow content bouton-achat" id="je-labonne">
-                    <input type="button" value="Terminer ma commande" class="call">
-                </div></a>
-            </div>
+   
         
         
         
@@ -123,11 +135,11 @@
 
 
 
-
+<a name="terminer-commande"></a>
 <div class="wrapper-panier-page-suggestion">
     <div class="wrapper-paiement coupon large">
         <div class="header-desc">
-            <h3>Merci d'avoir rajouté cet article à votre panier</h3>
+            <h3>Récapitulatif de votre commande</h3>
         </div>
         
         <!-- Header commande -->
@@ -178,27 +190,20 @@
             <!-- Recap commande --> 
             
         </div>
+        
+        
+        
     </div>
     <div class="right-terminer-achat"> </div>
     <div style=" clear:both;"></div>
-    <div class="wrapper-sugg-achat">
-        <h3>Ces articles pourraient aussi vous plaire</h3>
-        <div class="row content1">
-            <?php 
-include 'listing-produit.php';
 
-include 'listing-produit.php';
-
-include 'listing-produit.php';
-
-include 'listing-produit.php';
-
-include 'listing-produit.php';
-
-include 'listing-produit.php';
-?>
-        </div>
-    </div>
+     
+        <div class="wrap-large-but terminer-commande" id="je-labonne">
+                <a href="/wireframe-v1/include-boutique/include-transact/page-accueil-connexion-achat.php"><div class="subscribenow content bouton-achat" id="je-labonne">
+                    <input type="button" value="Terminer ma commande" class="call">
+                </div></a>
+      </div>
+    <div style=" clear:both;"></div>
     </div>
 </div>
 <?php

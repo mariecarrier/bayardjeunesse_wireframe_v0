@@ -1116,6 +1116,24 @@ select.duree-produit {
     }
     
     
+ .terminer-commande {
+     float: right;
+       background-color: #FFF200 !important;
+     
+     
+     
+     } 
+     
+     
+      .terminer-commande input {
+
+       background-color: #FFF200 !important;
+     
+     
+     
+     }     
+     
+    
   .col-lg-3.bigbox {
   width: 30%;
   float: left;
